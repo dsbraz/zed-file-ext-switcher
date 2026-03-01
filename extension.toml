@@ -1,6 +1,6 @@
 id = "file-ext-switcher"
 name = "File Extension Switcher"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["Daniel Braz <dsbraz@dsbraz.com>"]
 description = "Switch between companion files with the same base name but different extensions (e.g. Component.razor ↔ Component.razor.cs ↔ Component.razor.css)"
