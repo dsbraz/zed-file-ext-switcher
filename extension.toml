@@ -1,0 +1,15 @@
+id = "file-ext-switcher"
+name = "File Extension Switcher"
+version = "0.1.0"
+schema_version = 1
+authors = ["Daniel Braz <dsbraz@dsbraz.com>"]
+description = "Switch between companion files with the same base name but different extensions (e.g. Component.razor ↔ Component.razor.cs ↔ Component.razor.css)"
+repository = "https://github.com/dsbraz/zed-file-ext-switcher"
+
+[lib]
+kind = "Rust"
+version = "0.8.0"
+
+[workspace_commands.switch-companion-file]
+name = "Switch to Companion File"
+description = "Open the companion file with the same base name (cycles through known extension groups)"
